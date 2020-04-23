@@ -87,6 +87,7 @@ wget https://raw.githubusercontent.com/samuellacerda/SSHPlus/master/Sistema/veri
 chmod +x /bin/verifatt
 wget https://raw.githubusercontent.com/samuellacerda/SSHPlus/master/Sistema/verifbot.sh -O /bin/verifbot > /dev/null 2>&1
 chmod +x /bin/verifbot
+apt-get install net-tools
 
 [[ ! -d /etc/bot ]] && mkdir /etc/bot
 [[ ! -d /etc/bot/info-users ]] && mkdir /etc/bot/info-users
